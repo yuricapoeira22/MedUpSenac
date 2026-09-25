@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcar Consulta - MedUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Med<span>Up</span></div>
+
+        <div class="nav-links">
+            <a href="index.html">Início</a>
+            <a href="nossotema.html">Nosso Tema</a>
+            <a href="mconsulta.html">Marcar Consulta</a>
+            <a href="login.html">login</a>
+        </div>
+    </nav>
+</header>
+
+
+<main class="container">
+
+    <div class="page-title">
+        <span class="tag">AGENDAMENTO</span>
+
+        <h1>Agende sua Consulta</h1>
+
+        <p>
+            Preencha seus dados abaixo para solicitar o agendamento
+            de uma consulta.
+        </p>
+    </div>
+
+
+    <form class="formulario">
+
+        <label for="nome">Nome completo</label>
+        <input
+            type="text"
+            id="nome"
+            placeholder="Digite seu nome"
+            required
+        >
+
+
+        <label for="email">E-mail</label>
+        <input
+            type="email"
+            id="email"
+            placeholder="Digite seu e-mail"
+            required
+        >
+
+
+        <label for="telefone">Telefone</label>
+        <input
+            type="tel"
+            id="telefone"
+            placeholder="(00) 00000-0000"
+            required
+        >
+
+
+        <label for="data">Data da consulta</label>
+        <input
+            type="date"
+            id="data"
+            required
+        >
+
+
+        <label for="especialidade">Especialidade</label>
+
+        <select id="especialidade" required>
+            <option value="">Selecione uma especialidade</option>
+            <option>Clínico Geral</option>
+            <option>Cardiologia</option>
+            <option>Pediatria</option>
+            <option>Ortopedia</option>
+        </select>
+
+
+        <button type="submit">
+            Agendar Consulta
+        </button>
+
+    </form>
+
+</main>
+
+
+<footer>
+    <p>© 2026 MedUp - Saúde ao seu alcance</p>
+</footer>
+
+</body>
+</html>
